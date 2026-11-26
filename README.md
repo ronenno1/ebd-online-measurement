@@ -141,9 +141,9 @@ global.init_minno_mesh(global); // Loads minno_faces components
         { 
             type:'setTrialAttr',
             setter: function(trialData, eventData) {
-                trialData.EBR_bins      = global.get_all_bins(global, 50); // Bin size 50 ms
-                trialData.EBR           = global.get_all(global);
-                trialData.EBR_validity  = global.get_validity(global);
+                trialData.EBD_bins      = global.get_all_bins(global, 50); // Bin size 50 ms
+                trialData.EBD           = global.get_all(global);
+                trialData.EBD_validity  = global.get_validity(global);
                 trialData.SR            = 50; // Bin size in ms
             }
         },
