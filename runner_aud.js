@@ -84,7 +84,7 @@ define(['managerAPI', 'minno_mesh.js', 'https://cdn.jsdelivr.net/gh/minnojs/minn
 
 		aud_task :
 		[{
-			type: 'time', name: 'aud_task', scriptUrl: 'EBR_AUD.js' , 
+			type: 'time', name: 'aud_task', scriptUrl: 'EBD_AUD.js' , 
 			current: {
 			    myID:'aud_task',
 			    maxTimeoutsInBlock:8,
