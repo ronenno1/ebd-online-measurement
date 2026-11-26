@@ -1,6 +1,6 @@
-# 🧠 ebr-online-measurement
+# 🧠 ebd-online-measurement
 
-**ebr-online-measurement** (Eye Blink Rate Online Measurement) is a web-based platform designed to measure eye blink dynamics in real time.  
+**ebd-online-measurement** (Eye Blink Dynamics Online Measurement) is a web-based platform designed to measure eye blink dynamics in real time.  
 It includes two experimental tasks — one **visual** and one **auditory** — enabling comparison of blink rates under different sensory conditions.
 
 ---
@@ -19,8 +19,8 @@ Both tasks use the same blink detection algorithm but differ in the type of pres
 
 | Task | Description | Live Link | View Code |
 |------|--------------|------------|-----------|
-| 👁️ **Visual Task** | Measures eye blink dynamics during exposure to visual stimuli | [Start Visual Task](https://ronenno1.github.io/ebr-online-measurement/vis.html) | [View Code](https://github.com/ronenno1/ebr-online-measurement/blob/main/EBR_VIS.js) |
-| 🎧 **Auditory Task** | Measures eye blink dynamics during exposure to auditory stimuli | [Start Auditory Task](https://ronenno1.github.io/ebr-online-measurement/aud.html) | [View Code](https://github.com/ronenno1/ebr-online-measurement/blob/main/EBR_AUD.js) |
+| 👁️ **Visual Task** | Measures eye blink dynamics during exposure to visual stimuli | [Start Visual Task](https://ronenno1.github.io/ebd-online-measurement/vis.html) | [View Code](https://github.com/ronenno1/ebd-online-measurement/blob/main/EBD_VIS.js) |
+| 🎧 **Auditory Task** | Measures eye blink dynamics during exposure to auditory stimuli | [Start Auditory Task](https://ronenno1.github.io/ebd-online-measurement/aud.html) | [View Code](https://github.com/ronenno1/ebd-online-measurement/blob/main/EBD_AUD.js) |
 
 ---
 
@@ -39,7 +39,7 @@ This platform is built using the **Minno** framework for online behavioral exper
 For running the experiment, **three main files** are required:
 
 1. **Manager file:** `runner_aud.js` or `runner_vis.js`  
-2. **Experiment file:** `EBR_VIS.js` or `EBR_AUD.js`  
+2. **Experiment file:** `EBD_VIS.js` or `EBD_AUD.js`  
 3. **Eye blink package:** `minno_mesh.js`  
 
 ### Manager File Setup
@@ -114,7 +114,7 @@ uploading: uploading_task({
 
 ```
 
-### Experiment File Setup (`EBR_VIS.js` or `EBR_AUD.js`)
+### Experiment File Setup (`EBD_VIS.js` or `EBD_AUD.js`)
 
 **1. Initialize Minno Mesh at the beginning of the experiment**
 ```javascript
