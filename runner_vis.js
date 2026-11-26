@@ -84,7 +84,7 @@ define(['managerAPI', 'minno_mesh.js', 'https://cdn.jsdelivr.net/gh/minnojs/minn
 
 		vis_task :
 		[{
-			type: 'time', name: 'vis_task', scriptUrl: 'EBR_VIS.js' , 
+			type: 'time', name: 'vis_task', scriptUrl: 'EBD_VIS.js' , 
 			current: {
 			    myID:'vis_task',
 			    maxTimeoutsInBlock:8,
