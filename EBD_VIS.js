@@ -220,9 +220,9 @@ define(['timeAPI','underscore'], function(APIconstructor, _) {
                                         
                     {type:'hideStim', handle:['All']},
                     {type:'setTrialAttr',setter:function(trialData, eventData){
-                        trialData.EBR           = global.get_all(global);
-                        trialData.EBR_validity  = global.get_validity(global);
-                        trialData.EBR_bins      = global.get_all_bins(global, 50);
+                        trialData.EBD           = global.get_all(global);
+                        trialData.EBD_validity  = global.get_validity(global);
+                        trialData.EBD_bins      = global.get_all_bins(global, 50);
                         trialData.SR            = 50;
                     }},
                     {type:'custom',fn: function(){global.stop_recording(global);}},
